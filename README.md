@@ -1,4 +1,4 @@
 ### Projektowanie Interfejsów Internetowych Lab4
 
-### Kodowanie wybrabych widoków
+## Kodowanie wybrabych widoków
 
