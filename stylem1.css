@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-left: 2rem;
+    background-color: #F0EFF5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 2rem 2rem;
+    z-index: -1;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+    header button {
+        font-size: 3rem;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+
+    .heart {
+        margin-right: 2rem;
+        float: right;
+    }
+
+.title {
+    margin-top: 19rem;
+    margin-bottom: 1.2rem;
+    color: #585858;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+    .title span {
+        color: #FFA200;
+    }
+
+.infos {
+    margin-bottom: 1.3rem;
+}  
+
+    .info {
+        display: inline-block;
+        align-items: center;
+        padding: 0 0.6rem 0 0.6rem;
+        vertical-align: middle;
+        height: 2.4rem;
+        box-shadow: 4px 4px 1rem -0.5em #676768, -3px -3px 0.5rem #ffffff;
+    }
+
+        .info i {
+            color: #FFA200;
+        }
+    
+        .infoo {
+            padding-top: 0.2rem;
+            padding-bottom: -0.1rem;
+            display: flex;
+            align-items: center;
+        }
+
+.description {
+    color: #6e6d6e;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.nutrients {
+    margin-top: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.4rem;
+}
+
+    .nutrient {
+        width: calc((100% - (4rem + 4px)) / 4);
+        display: inline-block;
+        height: 4rem;
+        text-align: center;
+        font-size:0.8rem;
+        font-weight: 500;
+    }
+
+        .nutrient > span {
+            font-size: 1rem;
+            color: #616161;
+            line-height: 2.4rem;
+        }
+
+            .nutrient > span > span {
+                color: #FFA200;
+            }
+
+    .space {
+        display: inline-block;
+        width: 1px;
+        height: 1.5rem;
+        border-right: 2px solid #FFA200;
+    }
+
+.price {
+    height: 7rem;
+    background-color: #ffa200;
+    margin-left: -2rem;
+    border-radius: 1.6rem 1.6rem 0 0;
+    color: #fff;
+    padding-top: 1.6rem;
+    padding-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+    .total {
+        display: inline-block;
+    }
+
+    .ammount {
+        float: right;
+        margin-right: 2.5rem;
+        height: 3rem;
+    }
+
+        .ammount div {
+            display: inline-block;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        .amm {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 0.4rem;
+            box-shadow: 3px 3px 1em -0.4rem #414141, -3px -3px 0.4em -0.1em #ffffff;
+        }
+
+        .number {
+            margin: 0 0.8rem 0 0.8rem;
+        }
+
+    .add {
+        background-color: #ffffff;
+        position: relative;
+        top: 30px;
+        margin-left: -2rem;
+        height: calc(100% - 3rem);
+        border-radius: 2.5rem 2.5rem 0 0;
+        color: #343434;
+        text-align: center;
+        width: calc(100% + 2rem);
+        padding-top: 2rem;
+        font-size: 0.85em;
+    }
